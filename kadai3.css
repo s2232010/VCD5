@@ -1,0 +1,172 @@
+@charset "utf-8";
+body {
+    background-color: #ffffff;
+    font-family: "メイリオ";
+    }
+header {
+    height: 280px;
+    width: 1000px;
+	background-color: #fbfbfb;
+}
+header h1 {
+    height: 100px;
+    width: 700px;
+    color: #820000;    /* メニュー項目の背景色(濃い赤色) */
+    display: inline-block;
+    font-size: 4em;
+    font-family: "ヒラギノ明朝";
+    border-style: solid;
+    border-color: #21711300;
+    margin-block-start: 0.67em;
+    margin-block-end: 1em;
+    margin-inline-start: 50px                                                                       px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+header p {
+    display: block;
+    color: #410000;
+    border-style: none;
+    border-color: #21711300;/*枠*/
+    margin-inline-start: 50px;
+}
+nav {
+	height: 30px;
+    width: 810px;
+	background-color: #F7F66B;
+}
+
+h1 {
+    height: 30px;
+    width: 700px;
+    color: #000000;
+    display: block;
+    float: none;
+    font-size: 2em;
+    border-style: solid;
+    border-color: #66666600;
+    margin-top: 0em;
+    margin-inline-start: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+  	margin-left: 1em;
+}
+
+.big_box{
+    height: 950px;
+    width: 1250px;
+}
+main{
+    height: 850px;
+    width: 1100px;
+    background-color: #720000;
+    float: left;
+}
+.r_aside {
+    height: 550px;
+    width: 180px;
+    background-color: #691919;
+    float: right;
+}
+
+article {
+    height: 400px;
+    width: 1080px;
+    background-color: #ffffff;
+    margin-top: 1em;
+    margin-left: 10px;
+}
+section {
+    height: 200px;
+    width: 250px;
+    background-color: #691919;
+    margin-inline-start: 10px;
+    float: left;
+}
+section h2{
+    height: 30px;
+    width: 700px;
+    color: #ffffff;
+    margin-inline-start: 10px;
+}
+
+
+section p{
+    color: #ffffff;
+    margin-inline-start: 10px;
+}
+section img{
+    background-color: #ffffff;
+}
+
+aside {
+    height: 100px;
+    width: 160px;
+    background-color: #ffffff;
+    margin-top: 1em;
+    margin-left: 0.6em;
+}
+footer {
+    height: 70px;
+    width: 810px;
+    background-color: #ffffff;
+    float: left;
+}
+
+
+ul.ddmenu li {
+    width: 125px;           /*メニュー項目の横幅(125px)*/
+    display:inline-block;   /*★1:横並びに配置する*/
+    list-style-type: none;  /* ★2:リストの先頭記号を消す */
+    position: relative;     /* ★3:サブメニュー表示の基準位置にする */
+}
+
+ul.ddmenu a {
+    background-color: #820000;    /* メニュー項目の背景色(濃い赤色) */
+    color: white;                 /* メニュー項目の文字色(白色) */
+    line-height: 40px;              /* メニュー項目のリンクの高さ(40px) */
+    text-align: center;             /* メインメニューの文字列の配置(中央寄せ) */
+    text-decoration: none;          /* メニュー項目の装飾(下線を消す) */
+    font-weight: bold;              /* 太字にする */
+    display: block;                 /* ★4:項目内全域をリンク可能にする */
+    font-family: "MSゴシック" ;
+
+}
+
+ ul.ddmenu a:hover {
+       background-color: #ff7777; /* メニュー項目にマウスが載ったときの背景色(淡いピンク) */
+       color: #ffffff; /* メニュー項目にマウスが載ったときの文字色(濃い赤色) */
+ }
+
+ /*サブメニューの装飾*/
+
+ ul.ddmenu ul {
+       display: none;             /* ★1:標準では非表示にする */
+       margin: 0px;               /* ★2:サブメニュー外側の余白(ゼロ) */
+       padding: 0px;              /* ★3:サブメニュー内側の余白(ゼロ) */
+       position: absolute;        /* ★4:絶対配置にする */
+ }
+
+/*サブメニューがある時に開く処理*/
+
+ ul.ddmenu li:hover ul {
+       display: block; /* ★5:マウスポインタが載っている項目の内部にあるリストを表示する */
+ }
+ img{
+	width:100%;
+}
+.logo{
+	width: 10%;
+    display: inline-block;
+}
+.mise-img{
+    height: 360px;
+    width: 800px;
+    display: inline-block;
+}
